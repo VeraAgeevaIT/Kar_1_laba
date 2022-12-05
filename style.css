@@ -1,0 +1,58 @@
+/*групповой селектор для заголовка всех уровней  во внешнем покдлючение*/
+h1,h2,h3,h4,h5,h6{
+    color:purple;
+    font-family: "Monotype Corsiva", serif ;
+
+}
+
+ul.first{
+    color: red;
+    font-family: "Times New Roman",serif;
+    font-size: 18pt;
+
+}
+#id_span,#id_span2{
+    text-decoration:line-through ;
+}
+
+ul.second{
+ color:yellow;
+    font-family:"Times New Roman",serif;
+    font-size:20pt;
+}
+ul.third{
+color:green;
+    font-family: "Times New Roman",serif;
+    font-size: 22pt;
+}
+tr th,tr td{
+    background: darkorange;
+}
+
+
+p{
+background: yellow;
+}
+h2{
+    color:blue;
+}
+/*я использую дочерний селектор h2 для тега div*/
+div>h2{
+    color: rgb(0, 250, 154);
+}
+@font-face {
+
+font-family: "Monotype Corsiva";
+src: url("./fonts/monotypecorsiva.ttf");
+format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Times New Roman";
+    src:url("fonts/arial_bolditalicmt.ttf");
+format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
